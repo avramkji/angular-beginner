@@ -1,0 +1,31 @@
+.Todo-List {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // background-color: lightblue;
+    max-width: 70ch;
+
+    input {
+        max-width: 70ch;
+        min-height: 1.5em;
+        margin: .5em;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin: 0;
+        margin-left: .5em;
+    }
+
+    ul{
+        padding: 1em;
+        margin: 0;
+        margin-left: .5em;
+        li {
+            list-style-type: decimal;
+        }
+    }
+
+
+}
